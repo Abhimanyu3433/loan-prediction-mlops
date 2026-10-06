@@ -9,7 +9,7 @@ app = FastAPI(
     version="1.0"
 )
  
-model = joblib.load("D:\OneDrive - Coforge Limited\Desktop\AI Training\MLOPs Loan Default/model/loan_default.pkl")
+model = joblib.load("model/loan_default.pkl")
  
 class LoanInput(BaseModel):
     current_loan_amount: float = Field(alias="Current Loan Amount")
