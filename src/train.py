@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings('ignore')
  
 # 2. Read Data
-credit_df = pd.read_csv("data\credit_train.csv")
+credit_df = pd.read_csv("data/credit_train.csv")
  
 # 3. Data Processing & Cleansing
 credit_df['Months since last delinquent'] = credit_df['Months since last delinquent'].fillna(0)
