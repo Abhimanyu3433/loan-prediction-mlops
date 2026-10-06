@@ -1,4 +1,4 @@
-name:  ML-CI Loan Prediction
+name:  ML-CI Loan Prediction workflow
 on:
   push:
     branches:
